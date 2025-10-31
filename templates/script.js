@@ -32,5 +32,16 @@ botaoVerde.addEventListener('click', function(){
 const botaoFonte = document.getElementById('btn-fonte')
 
 botaoFonte.addEventListener('click', function(){
-    botaoFonte.classList.toggle('fonte-alternativa')
+    cartao.classList.toggle('fonte-alternativa')
 })
+
+
+const selectImagem = document.getElementById('imagem-select')
+const imagemCartao = document.getElementById('cartao-img')
+
+selectImagem.addEventListener('change', () =>{
+    const novoIcone = selectImagem.value
+    imagemCartao.setAttribute('src', novoIcone)
+})
+
+
