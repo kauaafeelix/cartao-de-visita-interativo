@@ -27,5 +27,10 @@ botaoVerde.addEventListener('click', function(){
     botaoVerde.classList.add('fundo-verde')
 })
 
+// Parte 3: Altera fonte
 
+const botaoFonte = document.getElementById('btn-fonte')
 
+botaoFonte.addEventListener('click', function(){
+    botaoFonte.classList.toggle('fonte-alternativa')
+})
