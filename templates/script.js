@@ -36,6 +36,8 @@ botaoFonte.addEventListener('click', function(){
 })
 
 
+// Parte 4: Mudar o Ícone
+
 const selectImagem = document.getElementById('imagem-select')
 const imagemCartao = document.getElementById('cartao-img')
 
@@ -44,6 +46,8 @@ selectImagem.addEventListener('change', () =>{
     imagemCartao.setAttribute('src', novoIcone)
 })
 
+
+// Parte 5: Criar e Adicionar Habilidades
 
 const habilidadeInput = document.getElementById('habilidade-input')
 const botaoAdicionar = document.getElementById('btn-adicionar')
