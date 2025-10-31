@@ -45,3 +45,19 @@ selectImagem.addEventListener('change', () =>{
 })
 
 
+const habilidadeInput = document.getElementById('habilidade-input')
+const botaoAdicionar = document.getElementById('btn-adicionar')
+const listaHabilidades = document.getElementById('lista-habilidades')
+
+
+botaoAdicionar.addEventListener('click', () =>{
+    
+    if (habilidadeInput){
+
+        const novoItem = document.createElement('li')
+        novoItem.textContent = habilidadeInput.value
+        listaHabilidades.appendChild(novoItem)
+        habilidadeInput.value = "";
+    }
+    
+})
