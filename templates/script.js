@@ -18,13 +18,13 @@ const botaoAzul = document.getElementById('btn-azul')
 const botaoVerde = document.getElementById('btn-verde')
 
 botaoAzul.addEventListener('click', function(){
-    botaoVerde.classList.remove('fundo-verde')
-    botaoAzul.classList.add('fundo-azul')
+    cartao.classList.remove('fundo-verde')
+    cartao.classList.add('fundo-azul')
 })
 
 botaoVerde.addEventListener('click', function(){
-    botaoAzul.classList.remove('fundo-azul')
-    botaoVerde.classList.add('fundo-verde')
+    cartao.classList.remove('fundo-azul')
+    cartao.classList.add('fundo-verde')
 })
 
 // Parte 3: Altera fonte
